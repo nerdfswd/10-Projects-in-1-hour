@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    min-height:100vh;
+}
+button{
+    background-color:rebeccapurple;
+    color:#fff;
+    border:none;
+    outline:none;
+    padding: 0.7rem;
+    border: 3px solid rgb(210, 174, 247);
+}
+button:hover{
+    cursor: pointer;
+}
+#container{
+    float:right;
+    position: fixed;
+    bottom:10px;
+    right:10px;
+}
+.toast{
+    background-color:rebeccapurple;
+    color:#fff;
+    font-size:14px;
+    padding:1rem;
+    margin:1rem;
+    border-radius: 5px;
+}
+@media screen and (max-width:770px){
+    body{
+        font-size:24px;
+    }
+    button{
+        width:150px;
+        padding:3rem;
+    }
+}
